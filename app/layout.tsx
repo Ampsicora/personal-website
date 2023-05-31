@@ -6,19 +6,19 @@ import { Analytics } from "./components/analytics";
 
 export const metadata: Metadata = {
 	title: {
-		default: "Alessandro Sartori",
-		template: "%s | Alessandro Sartori",
+		default: "chronark.com",
+		template: "%s | chronark.com",
 	},
-	description: "✨ Web Developer, Investor & Technical Analyst",
+	description: "Software engineer at upstash.com and founder of planetfall.io",
 	openGraph: {
-		title: "Alessandro Sartori",
+		title: "chronark.com",
 		description:
-			"✨ Web Developer, Investor & Technical Analyst",
-		url: "https://alessandro.sartori.io",
-		siteName: "alessandro.sartori.io",
+			"Software engineer at upstash.com and founder of planetfall.io",
+		url: "https://chronark.com",
+		siteName: "chronark.com",
 		images: [
 			{
-				url: "https://alessandro.sartori.io/og.png",
+				url: "https://chronark.com/og.png",
 				width: 1920,
 				height: 1080,
 			},
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
 		card: "summary_large_image",
 	},
 	icons: {
-		shortcut: "/favicon.ico",
+		shortcut: "/favicon.png",
 	},
 };
 const inter = Inter({
