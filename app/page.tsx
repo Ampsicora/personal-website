@@ -53,7 +53,7 @@ const socials = [
 export default function Home() {
 	return (
 		<div className="flex flex-col items-center justify-center w-screen h-screen overflow-hidden bg-gradient-to-tl from-black via-zinc-600/20 to-black">
-			<nav className="my-16 animate-fade-in" hidden>
+			{/* <nav className="my-16 animate-fade-in" hidden>
 				<ul className="flex items-center justify-center gap-4">
 					{navigation.map((item) => (
 						<Link
@@ -65,7 +65,7 @@ export default function Home() {
 						</Link>
 					))}
 				</ul>
-			</nav>
+			</nav> */}
 
 			{/* Profile Picture */}
 			<div className={contactStyles.avatar}>
@@ -84,7 +84,7 @@ export default function Home() {
 				className="absolute inset-0 -z-10 animate-fade-in"
 				quantity={200}
 			/>
-			
+
 			<h1 className="z-10 text-4xl text-transparent duration-600 bg-white cursor-default text-edge-outline animate-title font-display sm:text-6xl md:text-7xl whitespace-nowrap bg-clip-text ">
 				Alessandro Sartori
 			</h1>
