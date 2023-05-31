@@ -30,15 +30,15 @@ const socials = [
 		handle: "",
 	},
 	{
-		icon: <Twitter size={20} />,
-		href: "https://twitter.com/Ampsicora0",
-		label: "Twitter",
-		handle: "",
-	},
-	{
 		icon: <FileText size={20} />,
 		href: "https://drive.google.com/file/d/1mtbQnJz3jQ3zrrTNQuSiWfbSGmMhEOGo/view?usp=sharing",
 		label: "Curriculum",
+		handle: "",
+	},
+	{
+		icon: <Twitter size={20} />,
+		href: "https://twitter.com/Ampsicora0",
+		label: "Twitter",
 		handle: "",
 	},
 	{
@@ -122,6 +122,11 @@ export default function Home() {
 						</Link>
 					))}
 				</div>
+				
+				<audio controls autoPlay loop preload="none">
+					<source src="chopin-op-64-n2.mp3" type="audio/mpeg" />
+					Your browser does not support the audio element.
+				</audio>
 			</div>
 		</div>
 	);
