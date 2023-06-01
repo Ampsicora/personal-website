@@ -96,7 +96,7 @@ export default function Home() {
 				</h2>
 			</div>
 			{/* Socials */}
-			<div className="container flex items-center justify-center px-4 mx-auto">
+			<div className="container flex items-center justify-center px-4 mx-auto animate-fade-in">
 				<div className="grid w-full grid-cols-3 gap-8 mx-auto sm:grid-cols-6 lg:gap-16">
 					{socials.map((s) => (
 						<Link
@@ -122,12 +122,12 @@ export default function Home() {
 						</Link>
 					))}
 				</div>
-				
-				<audio controls autoPlay loop preload="none">
-					<source src="chopin-op-64-n2.mp3" type="audio/mpeg" />
-					Your browser does not support the audio element.
-				</audio>
 			</div>
+				
+			<audio autoPlay loop preload="none">
+				<source src="chopin-op-64-n2.mp3" type="audio/mpeg" />
+				Your browser does not support the audio element.
+			</audio>
 		</div>
 	);
 }
