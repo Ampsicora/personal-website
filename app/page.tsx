@@ -123,11 +123,12 @@ export default function Home() {
 					))}
 				</div>
 			</div>
-				
-			<audio autoPlay loop preload="none">
-				<source src="chopin-op-64-n2.mp3" type="audio/mpeg" />
-				Your browser does not support the audio element.
-			</audio>
+			
+			<div className="animate-fade-in">
+				<audio autoPlay loop preload="metadata" src="chopin-op-64-n2.mp3">
+					Your browser does not support the audio element.
+				</audio>
+			</div>
 		</div>
 	);
 }
