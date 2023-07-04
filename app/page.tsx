@@ -31,7 +31,7 @@ const socials = [
 	},
 	{
 		icon: <FileText size={20} />,
-		href: "https://drive.google.com/file/d/1mtbQnJz3jQ3zrrTNQuSiWfbSGmMhEOGo/view?usp=sharing",
+		href: "https://drive.google.com/file/d/1shxIQTKIazPOu56VwfSQuMcghsr__jWO/view?usp=sharing",
 		label: "Curriculum",
 		handle: "",
 	},
