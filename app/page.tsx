@@ -86,12 +86,12 @@ export default function Home() {
 			<div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
 			<div className="my-16 text-center animate-fade-in">
 				<h2 className="text-zinc-500 md:text-2xl">
-					✨ Web Developer, Investor & Technical Analyst
+					✨ Software Engineer & Technical Analyst
 				</h2>
 			</div>
 			{/* Socials */}
 			<div className="container flex items-center justify-center px-4 mx-auto animate-fade-in">
-				<div className="grid w-full grid-cols-3 gap-8 mx-auto sm:grid-cols-6 lg:gap-16">
+				<div className="flex mx-auto lg:gap-16">
 					{socials.map((s) => (
 						<Link
 							href={s.href}
