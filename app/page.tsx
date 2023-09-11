@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import Particles from "./components/particles";
-import { Github, Linkedin, FileText, Mail, Twitter, Instagram } from "lucide-react";
+import { Github, Linkedin, Mail, Twitter, Instagram } from "lucide-react";
 
 import contactStyles from './styles/contact.module.css'
 
@@ -27,12 +27,6 @@ const socials = [
 		icon: <Mail size={20} />,
 		href: "mailto:alessandro@sartori.io",
 		label: "Email",
-		handle: "",
-	},
-	{
-		icon: <FileText size={20} />,
-		href: "https://drive.google.com/file/d/1shxIQTKIazPOu56VwfSQuMcghsr__jWO/view?usp=sharing",
-		label: "Curriculum",
 		handle: "",
 	},
 	{
