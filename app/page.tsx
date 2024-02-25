@@ -29,18 +29,6 @@ const socials = [
 		label: "Email",
 		handle: "",
 	},
-	{
-		icon: <Twitter size={20} />,
-		href: "https://twitter.com/Ampsicora0",
-		label: "Twitter",
-		handle: "",
-	},
-	{
-		icon: <Instagram size={20} />,
-		href: "https://www.instagram.com/alesartoz/",
-		label: "Instagram",
-		handle: "",
-	},
 ];
 
 
