@@ -9,11 +9,11 @@ export const metadata: Metadata = {
 		default: "Alessandro Sartori",
 		template: "%s | Alessandro Sartori",
 	},
-	description: "✨ Web Developer, Investor & Technical Analyst",
+	description: "✨ Web Developer, Investor & Technical Analyst 🔮",
 	openGraph: {
 		title: "Alessandro Sartori",
 		description:
-			"✨ Web Developer, Investor & Technical Analyst",
+			"✨ Web Developer, Investor & Technical Analyst 🔮",
 		url: "https://alessandro.sartori.io",
 		siteName: "alessandro.sartori.io",
 		images: [
